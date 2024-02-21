@@ -1,0 +1,533 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #272727;
+}
+
+/* NavigationBar */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 130px;
+  background-color: #272727;
+  font-size: 25px;
+}
+
+.items {
+  display: inline-block;
+  margin: 12px;
+}
+
+.li-items {
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 12px;
+  color: white;
+}
+
+.li-items:hover {
+  background-color: whitesmoke;
+  color: darkblue;
+  transition: background-color, color, 0.6s;
+}
+
+.active {
+  background-color: whitesmoke;
+  color: darkblue;
+}
+
+.logo {
+  height: 110px;
+}
+
+.btnsignin {
+  border-radius: 9px;
+  width: 170px;
+  height: 55px;
+  font-size: 23px;
+  background: gold;
+}
+
+/* Header-image-content */
+
+.header-image-content {
+  min-height: 100vh;
+  background-image: url(/Images/Cheif_image.jpeg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #999;
+}
+
+.heading-for-image {
+  font-family: DM Serif Display;
+  font-size: 55px;
+  font-weight: 400;
+  color: #ffc164;
+}
+
+.text-for-image {
+  font-size: 43px;
+  color: white;
+  height: 200px;
+  width: 600px;
+}
+
+.btnmenu {
+  text-align: center;
+  border: 1px solid gold;
+  color: white;
+  border-radius: 50px;
+  height: 60px;
+  width: 300px;
+  font-size: 26px;
+  font-weight: 800;
+  background-color: transparent;
+  margin-inline-start: -50px;
+}
+
+/* Today's Special */
+
+.todays-special {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #272727;
+  color: gold;
+  margin-bottom: 100px;
+}
+
+.heading-for-today-special {
+  margin-top: 55px;
+  font-size: 50px;
+}
+
+.para-for-today-special {
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.menu-boxes {
+  /* margin-top: 50px;
+    min-height: 50vh; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-box {
+  height: 500px;
+  width: 400px;
+  background-color: black;
+  color: white;
+}
+
+/* Items-Boxes */
+
+.item1-heading {
+  font-size: 30px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+.item-1-paragraph {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.item-1-button {
+  /* margin: auto; */
+  height: 50px;
+  width: 250px;
+  margin-left: 80px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 25px;
+  background-color: chartreuse;
+}
+
+.item1 {
+  background-image: url(/Images/Item-1.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 230px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.item2 {
+  background-image: url(/Images/Item-2.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 230px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.item3 {
+  background-image: url(/Images/Item-3.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 230px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.item4 {
+  background-image: url(/Images/Item-4.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 230px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* Image Section */
+
+.img-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 450px;
+  width: 100%;
+  background-image: url(/Images/section-2\ img.png);
+}
+
+.our-specaility {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: first center;
+  height: 300px;
+}
+
+.our-specaility-heading {
+  padding: 18px;
+  font-size: 50px;
+  color: darkorange;
+}
+
+.our-specaility-para {
+  margin-top: 30px;
+  font-size: 33px;
+  color: cornsilk;
+}
+
+.our-speciality-menu ul li {
+  margin-top: 100px;
+  margin-left: 60px;
+  font-size: 27px;
+  background-color: transparent;
+  border: 1px solid coral;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.menu-list-a {
+  color: white;
+  text-decoration: none;
+}
+
+.rating {
+  margin-left: 130px;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.special-item-dragon-sushi {
+  margin-top: 100px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #272727;
+}
+
+.special-item-1 {
+  background-image: url(/Images/Dragon-Sushi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+}
+
+.special-item-1-content {
+  width: 500px;
+  font-size: 25px;
+  color: white;
+  margin-top: 50px;
+}
+
+.creamy-sushi {
+  margin-top: 100px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #272727;
+}
+
+.special-item-2 {
+  background-image: url(/Images/Creamy-Sushi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+}
+
+.special-item-2-content {
+  width: 500px;
+  font-size: 25px;
+  color: white;
+  margin-top: 50px;
+}
+
+.special-roll-salmon-sushi {
+  margin-top: 100px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #272727;
+}
+
+.special-item-3 {
+  background-image: url(/Images/Roll-Salmon-Sushi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+}
+
+.special-item-3-content {
+  width: 500px;
+  font-size: 25px;
+  color: white;
+  margin-top: 50px;
+}
+
+.dining-events {
+  height: 300px;
+  width: 100%;
+  margin-top: 100px;
+  background-color: #272727;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.dining-events h1 {
+  margin: 15px;
+  color: darkorange;
+}
+
+.dining-events p {
+  color: floralwhite;
+  font-size: 30px;
+}
+
+.dining-events-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diningbtn {
+  width: 230px;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  margin-right: 40px;
+  margin-top: 40px;
+  border-radius: 12px;
+  color: cyan;
+  border: 1px solid white;
+}
+
+.fine-dining {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fine-dinig-image {
+  background-image: url(/Images/Fine-Dining.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #999;
+  background-blend-mode: multiply;
+  height: 300px;
+  width: 60%;
+}
+
+.fine-dining-content {
+  width: 20%;
+  font-size: 25px;
+  color: white;
+  margin-left: 10px;
+}
+
+/* Gold-Dining */
+
+.gold-dining {
+  margin-top: 100px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gold-dining-image {
+  background-image: url(/Images/Gold-dining.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #999;
+  background-blend-mode: multiply;
+  height: 300px;
+  width: 60%;
+}
+
+.gold-dining-content {
+  width: 20%;
+  font-size: 25px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+/* Royalty-Dining */
+
+.Royalty-dining {
+  margin-top: 100px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Royalty-dining-image {
+  background-image: url(/Images/Royalty-dining.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #999;
+  background-blend-mode: multiply;
+  height: 300px;
+  width: 60%;
+}
+
+.Royalty-dining-content {
+  width: 20%;
+  font-size: 25px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.Our-Story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 100px;
+  color: white;
+  font-size: 30px;
+}
+
+.Our-Story h1 {
+  color: darkorange;
+  margin: 15px;
+  margin-bottom: 40px;
+}
+
+.Our-Story p {
+  color: floralwhite;
+}
+
+.our-story-image-content {
+  height: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.our-story-image {
+  background-image: url(/Images/Our-Story.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 40%;
+}
+
+.out-story-content {
+  width: 40%;
+  font-size: 30px;
+  color: white;
+}
+
+/* Footer */
+
+.footer {
+  height: 600px;
+  width: 100%;
+  margin-top: 100px;
+  font-size: 25px;
+  color: white;
+}
+
+.footer-image-content {
+  background-image: url(/Images/Footer-Image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Currency- Dollar */
+
+.Dollar-Currency {
+  color: gold;
+  font-size: 35px;
+}
